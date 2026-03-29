@@ -240,5 +240,5 @@ if __name__ == '__main__':
     print("\n🚀 Starting Exoplanet Habitability Prediction API...")
     print(f"📂 Model: {MODEL_PATH}")
     print(f"📊 Ranked Data: {RANKED_CSV_PATH}")
-    print(f"🌐 Server: http://127.0.0.1:5000\n")
-    app.run(debug=True, host='127.0.0.1', port=5000)
+    print(f"🌐 Server: http://0.0.0.0:{os.environ.get('PORT', 5000)}\n")
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
