@@ -7,7 +7,7 @@
 // Configuration
 // ═══════════════════════════════════════════════
 
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'https://predicting-the-habitability-of-xfiz.onrender.com';
 
 
 const NUMERIC_FEATURES = [
