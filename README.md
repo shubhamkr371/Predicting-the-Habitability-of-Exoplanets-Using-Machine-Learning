@@ -71,7 +71,7 @@ This project is licensed under the MIT License.
 ## 🌠 Acknowledgements
 - NASA Exoplanet Archive
 - scikit-learn, Flask, Pandas, Matplotlib
-- [Your Name or Team]
+- [Shubham kumar]
 
 ---
 
